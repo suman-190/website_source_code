@@ -1,0 +1,153 @@
+
+@media (min-width: 1281px) {
+
+  .mobinav{
+    display: none;
+  }
+
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  .mobinav{
+    display: none;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .mobinav{
+    display: none;
+  }
+  .partner-img a img{
+    height: 226px;
+}
+.bengaledu-item .cource-img img{
+    height: 196px;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .menu-style{
+    display: none;
+  }
+  .head-left span{
+    font-size: 14px;
+  }
+  .services-desc .services-title{
+    font-size: 14px;;
+  }
+  .course-header {
+    margin-top: 15px;
+  }
+  .partner-img a img{
+      height: 175px;
+  }
+  .bengaledu-item .cource-img img{
+      height: 146px;
+  }
+  .next-cz {
+    top: -180px!important;
+  }
+  .prev-cz{
+    top: -180px!important;
+  }
+  .next-cl {
+    top: -180px!important;
+  }
+  .prev-cl{
+    top: -180px!important;
+  }
+  .next-tz {
+    top: -180px!important;
+  }
+  .prev-tz{
+    top: -180px!important;
+  }
+}
+
+@media (max-width: 767px){
+  .caption-title{
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .caption-subtitle{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 991px){
+  .wb-services .services-item {
+    margin-top: 100px;
+  }
+}
+.post_titl{
+    font-size: 24px !important;
+    color: #205d9c;
+    font-weight: 700;
+    margin-bottom: 18px;
+    position: relative;
+    transition: 0.3s;
+}
+.post-date{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(1, 41, 112, 0.6);
+    display: block;
+    margin-bottom: 10px;
+}
+.postconet{
+    text-align: left;
+    justify-content: left;
+    font-size: 40px !important;
+    color: #205d9c;
+    line-height: 1.3;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+}
+#overview p{
+    padding: 10px !important;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  /* .sticky + .content {
+    padding-top: 0px;
+  } */
+
+  .top-new-des1::after{
+    background: #c6142e !important;
+    z-index: 999999;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: skew(-26deg);
+    padding-left: 20px;
+}
